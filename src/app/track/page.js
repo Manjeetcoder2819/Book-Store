@@ -8,20 +8,21 @@ const OrderMap = dynamic(() => import('@/components/OrderMap'), { ssr: false });
 const exampleOrders = {
   '12345': {
     status: 'Processing',
-    location: { lat: 34.0522, lng: -118.2437, status: 'Warehouse, Los Angeles' },
+    location: { lat: 34.0522, lng: -118.2437, status: 'Warehouse, Ahemdabad' },
   },
   '67890': {
     status: 'Shipped',
-    location: { lat: 39.9526, lng: -75.1652, status: 'In transit, near Philadelphia' },
+    location: { lat: 39.9526, lng: -75.1652, status: 'In transit, near pune 📦' },
   },
   '11223': {
     status: 'Out for Delivery',
-    location: { lat: 40.7128, lng: -74.0060, status: 'Out for delivery in New York City' },
+    location: { lat: 40.7128, lng: -74.0060, status: 'Out for delivery in nagpur city 🚗' },
   },
   '44556': {
     status: 'Delivered',
-    location: { lat: 41.8781, lng: -87.6298, status: 'Delivered to your address in Chicago' },
+    location: { lat: 41.8781, lng: -87.6298, status: 'Delivered to your address ✅' },
   },
+
 };
 
 export default function TrackOrderPage() {

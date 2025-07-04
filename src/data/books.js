@@ -51,5 +51,35 @@ export const allBooks = [
     reviews: [
       { user: 'Frank', rating: 5, comment: 'This book completely changed my outlook on life. Highly recommended!' },
     ]
+  },
+    {
+    id: 4,
+    title: 'Comic Book',
+    author: 'Dr. Positivity',
+    price: 14.99,
+    category: 'Crtics _bol',
+    images: ['https://images-workbench.99static.com/Klb_CHruRCTyJ5MiLJ2iA0tabkw=/99designs-contests-attachments/110/110480/attachment_110480397'],
+    styles: ['Hardcover', 'Paperback'],
+    description: 'Unlock your true potential with this powerful guide to personal growth and success. This book provides actionable strategies to overcome obstacles, cultivate a positive mindset, and achieve your biggest goals.',
+    features: ['Step-by-step guidance', 'Inspiring real-life stories', 'Practical exercises and reflections'],
+    benefits: ['Boost your confidence and self-esteem', 'Develop a resilient, growth-oriented mindset', 'Create a clear path to personal and professional success'],
+    reviews: [
+      { user: 'Frank', rating: 5, comment: 'This book completely changed my outlook on life. Highly recommended!' },
+    ]
+  },
+    {
+    id: 4,
+    title: 'Motivational Book',
+    author: 'Dr. Positivity',
+    price: 14.99,
+    category: 'Travelling',
+    images: ['https://images-workbench.99static.com/Klb_CHruRCTyJ5MiLJ2iA0tabkw=/99designs-contests-attachments/110/110480/attachment_110480397'],
+    styles: ['Hardcover', 'Paperback'],
+    description: 'Unlock your true potential with this powerful guide to personal growth and success. This book provides actionable strategies to overcome obstacles, cultivate a positive mindset, and achieve your biggest goals.',
+    features: ['Step-by-step guidance', 'Inspiring real-life stories', 'Practical exercises and reflections'],
+    benefits: ['Boost your confidence and self-esteem', 'Develop a resilient, growth-oriented mindset', 'Create a clear path to personal and professional success'],
+    reviews: [
+      { user: 'Frank', rating: 5, comment: 'This book completely changed my outlook on life. Highly recommended!' },
+    ]
   }
 ];
